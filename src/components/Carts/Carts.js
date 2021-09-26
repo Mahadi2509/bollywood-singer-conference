@@ -16,7 +16,7 @@ const Carts = (props) => {
                 <p>Gender: {gender}</p>
                 <p>Age: {age}</p>
                 <p>Salary: {cost}</p>
-                <p style={{ textAlign: 'center' }}><button className="cart-btn"> Add To Cart</button></p>
+                <p style={{ textAlign: 'center' }}><button className="cart-btn" onClick={() => props.handleAddToCart(props.cart)}> Add To Cart</button></p>
 
             </div>
             <div>
