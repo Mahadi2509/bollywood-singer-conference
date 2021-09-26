@@ -7,9 +7,13 @@ const Carts = (props) => {
 
     return (
         <div className="cart">
+
+            {/* cart image */}
             <div>
                 <img className="singer-img" src={img} alt="" />
             </div>
+
+            {/* cart body */}
             <div style={{ textAlign: 'start' }}>
                 <p>Name: {name}</p>
                 <p>Role: {role}</p>
@@ -20,6 +24,8 @@ const Carts = (props) => {
                 <p style={{ textAlign: 'center' }}><button className="cart-btn" onClick={() => props.handleAddToCart(props.cart)}> Add To Cart</button></p>
 
             </div>
+
+            {/* social icons */}
             <div>
                 <i style={{ marginRight: '20px', backgroundColor: 'gray', padding: '5px', borderRadius: '5px', width: '17px' }} class="fab fa-facebook-f"></i>
                 <i style={{ marginLeft: '20px', backgroundColor: 'gray', padding: '5px', borderRadius: '5px' }} class="fab fa-twitter"></i>
