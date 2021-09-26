@@ -19,7 +19,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     border-radius: 10px;
-    background-image: linear-gradient(to right,green,yellow);
+    background-image: linear-gradient(to right,green,rgb(146, 146, 28));
     color: white;
 }
 .singer-list img{

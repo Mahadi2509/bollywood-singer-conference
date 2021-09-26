@@ -5,7 +5,7 @@
     background-image:linear-gradient(to right,rgb(77, 185, 126), teal) ;
     color: whitesmoke;
     padding: 10px 0;
-    border-radius: 10px;
+    border-radius: 50px 10px;
 }
 .header h1{
 

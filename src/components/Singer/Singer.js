@@ -30,8 +30,8 @@ const Singer = (props) => {
 
     return (
         <div className="singer">
-            <h2><span>{element}</span>  Add Singers: {props.countSingers.length}</h2>
-            <h3>Total Cost: {totalCost}</h3>
+            <h2><span>{element}</span>  Add Singers: {props.countSingers.length} </h2>
+            <h3>Total Cost: {totalCost} <i class="fas fa-rupee-sign"></i></h3>
             <button className="singer-btn">Invite</button>
 
             <div id="side-show">

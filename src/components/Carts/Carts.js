@@ -3,7 +3,7 @@ import './Carts.css';
 
 
 const Carts = (props) => {
-    const { name, age, gender, img, role, cost } = props.cart;
+    const { name, age, gender, img, role, cost, location } = props.cart;
 
     return (
         <div className="cart">
@@ -15,7 +15,8 @@ const Carts = (props) => {
                 <p>Role: {role}</p>
                 <p>Gender: {gender}</p>
                 <p>Age: {age}</p>
-                <p>Salary: {cost}</p>
+                <p>Location: {location}</p>
+                <p>Salary: {cost} <i class="fas fa-rupee-sign"></i></p>
                 <p style={{ textAlign: 'center' }}><button className="cart-btn" onClick={() => props.handleAddToCart(props.cart)}> Add To Cart</button></p>
 
             </div>
