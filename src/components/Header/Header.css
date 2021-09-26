@@ -1,0 +1,12 @@
+.header{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: teal;
+    color: whitesmoke;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+.header h1{
+
+}
